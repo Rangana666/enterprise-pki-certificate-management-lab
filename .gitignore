@@ -1,0 +1,33 @@
+# Private keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Private CA directories
+private/
+secrets/
+
+# CA database
+index.txt
+index.txt.attr
+serial
+crlnumber
+newcerts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
